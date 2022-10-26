@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+alaranjado #DD743F
+verde #325F60
+verde fraco #7A7125
+*/
+@media screen  and (min-width: 768px) and (max-width: 992px){
+
+body{
+  background-image: linear-gradient(to top,#DD743F,#55789D);
+}
+
+  section#login{
+    width: 80vw;
+  }
+  
+  div.imagem{
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+  .dv1form{
+    float: right;
+    width: 70%;
+  }
+} 
+
+@media screen  and (min-width: 992px) {
+  body{
+    background-image: linear-gradient(to bottom,#325F60,#7a7125e2);
+  }   
+
+
+  section#login{
+    width: 950px;
+  }
+
+  div.imagem{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #5f2c82 url(../imagens/pexels-thiago-japyassu-1153522.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .dv1form{
+    float: right;
+    width: 50%;
+  }
+
+}
