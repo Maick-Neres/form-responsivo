@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos/style.css">
   <link rel="stylesheet" href="estilos/mediasquary.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <title>Login</title>
 </head>
 <body>
@@ -18,6 +20,20 @@
         <p>
           Seja bem-vindo(a)novamente.Faça login para para acessar sua conta e poder fazer as confihurações no seu ambinete. </p>
         <form action="#" method="post" autocomplete="off">
+          <div class="inputs">
+            <span class="material-icons">person</span>
+            <input type="email" name="login" id="login" placeholder="Seu e-mail" required maxlength="30"> <!--autocomplite email-->
+            <label for="login">Login</label>
+          </div>
+          <div class="inputs">
+            <span class="material-icons">vpn_key</span>
+            <input type="password" name="senha" id="Senha" placeholder="Sua senha" required maxlength="30" minlength="8"><!--autocomplite current-passowrd-->
+            <label for="senha">Senha</label>
+          </div>
+          <input type="submit" value="Entrar">
+          <a href="esqueci.html">
+            Esqueci a senha<span class="material-icons">mail</span>
+          </a>
         </form>
       </div>
     </section>
