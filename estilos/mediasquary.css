@@ -13,6 +13,7 @@ body{
 
   section#login{
     width: 80vw;
+    height: 300px;
   }
   
   div.imagem{
@@ -26,35 +27,52 @@ body{
   }
 } 
 
+
+
+
+
 @media screen  and (min-width: 992px) {
   body{
-    background-image: linear-gradient(to bottom,#325F60,#7a7125e2);
+    background-image: linear-gradient(to top,#DD743F,#55789D);
   }   
 
 
   section#login{
     width: 950px;
+      
   }
 
   div.imagem{
     float: right;
     width: 50%;
     height: 100%;
-    background: #5f2c82 url(../imagens/pexels-thiago-japyassu-1153522.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
   }
 
   .dv1form{
     float: left;
     width: 50%;
+
   }
   .dv1form h1{
     font-size: 2em;
   }
 
   .dv1form p{
-    font-size: 1.1em;
+    font-size: 1em;
+    margin: 20px 0;
+  }
+
+.dv1form .png{
+    display: block;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+  img{
+    width: 40%;
   }
 
 }
